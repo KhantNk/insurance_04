@@ -1,0 +1,116 @@
+:root {
+  --main-text-color: #333333;
+  --primary-color: #946135;
+  --secondary-color: #D89C55;
+  --main-bg-color: #F9F7F4;
+  --bg-drk-color: #DBC7B0;
+  --bg-light-color: #FBF5EE;
+  --social-icon: #50514D;
+
+  --font-arial: 'Arial', sans-serif;
+  --font-lato: 'Lato', sans-serif;
+  --font-abril: 'Abril Fatface', cursive;
+  --font-delius: 'Delius Swash Caps', cursive;
+  --font-awesome: 'FontAwesome';
+}
+
+@font-face {
+  font-family: 'Arial';
+  font-weight: bold;
+  src: url('../font/ArialMdm.ttf');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: medium;
+  src: url('../font/Lato-Medium.ttf');
+}
+
+@font-face {
+font-family: 'Abril Fatface';
+  font-weight: regular;
+  src: url('../font/Lato-Medium.ttf');
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  font-weight: normal;
+  src: url(../font/fontawesome-free-6.0.0-web);
+}
+
+h1 {
+  font-family: var(--font-arial);
+  font-size: 55px;
+  color: var(--primary-color);
+}
+
+h2 {
+  font-family: var(--font-arial);
+  font-size: 35px;
+  color: var(--primary-color);
+}
+
+h4 {
+  font-family: var(--font-delius);
+  font-size: 40px;
+  color: var(--primary-color);
+}
+
+.logo {
+  font-family: var(--font-abril);
+  font-size: 40px;
+  color: var(--secondary-color);
+}
+
+.ico-span {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  line-height: 110px;
+  background-color: var(--bg-light-color);
+  transform: rotate(45deg);
+}
+
+.icon-bg {
+  width: 63px;
+  height: 63px;
+  margin: 0 auto;
+  line-height: 74px;
+  background-color: var(--bg-light-color);
+}
+
+.card-title {
+  font-family: var(--font-delius);
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.btn-outline-primary{
+  border-color: var(--primary-color);
+  padding: 10px 20px;
+  color: var(--primary-color);
+}
+
+
+.cmn-visual {
+  background-image: url(../img/cmn_bg.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 400px;
+}
+
+.mb {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .mb {
+    display: block;
+  }
+
+  .pc {
+    display: none;
+  }
+}

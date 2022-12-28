@@ -1,0 +1,11 @@
+footer .prt-img img{
+  height: 70px;
+}
+
+footer .social-icon i{
+  font-size: 27px;
+  color: var(--social-icon);
+}
+.copy-right{
+  background-color:#707070;
+}

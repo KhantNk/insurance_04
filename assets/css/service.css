@@ -1,0 +1,8 @@
+.ser-pg .wwd-sec{
+  background-color: var(--bg-light-color);
+}
+
+.ser-pg .wwd-sec i {
+  transform: rotate(0);
+  font-size: 35px;
+}
