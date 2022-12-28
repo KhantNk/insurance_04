@@ -1,0 +1,11 @@
+.contact-sec{
+  background-color: var(--main-bg-color);
+}
+
+.contact-sec .map{
+  height: 400px;
+}
+
+.contact-sec .map iframe{
+  height: 100%;
+}

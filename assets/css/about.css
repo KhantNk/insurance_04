@@ -1,0 +1,18 @@
+.profile-sec {
+  background-color: var(--main-bg-color);
+}
+.profile-sec .nav-link {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  border-right: 1px solid var(--main-text-color);
+}
+
+.profile-sec .nav-link.active {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  border-right: 3px solid var(--primary-color);
+}
+
+.com-profile{
+  border-left: 3px solid var(--primary-color);
+}

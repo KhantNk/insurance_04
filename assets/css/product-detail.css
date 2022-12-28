@@ -1,0 +1,13 @@
+.health-sec {
+  background-color: var(--main-bg-color);
+}
+
+.health-sec .nav-link {
+  background-color: #F3F3F3;
+  color: var(--main-text-color);
+}
+
+.health-sec .nav-link.active {
+  background-color: #FFFFFF;
+  color: var(--main-text-color);
+}
