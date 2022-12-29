@@ -1,5 +1,6 @@
 .profile-sec {
   background-color: var(--main-bg-color);
+  overflow: hidden;
 }
 
 .profile-sec .nav-link {
@@ -28,6 +29,7 @@
   height: 295px;
   overflow: hidden;
   transform: rotate(45deg);
+  border: 1px solid var(--primary-color);
 }
 
 .financial-img .item:nth-child(2) {
@@ -37,20 +39,13 @@
 .financial-img .item .img {
   width: 100%;
   height: 100%;
-  transform: rotate(-45deg) scale(1.42);
+  transform: rotate(-45deg) scale(1.1);
 }
 
 .financial-img .item .img.first-img {
-  background: url(../img/financial_02.jpg);
+  background: url(../img/financial_02.png);
 }
 
 .financial-img .item .img.sec-img {
-  background: url(../img/financial_01.jpg);
-}
-
-@media screen and (max-width: 992px) {
-  .financial-img .item {
-   max-width: 150px;
-   height: 150px;
-  }
+  background: url(../img/financial_01.png);
 }
