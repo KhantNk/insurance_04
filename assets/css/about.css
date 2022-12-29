@@ -1,10 +1,12 @@
 .profile-sec {
   background-color: var(--main-bg-color);
 }
+
 .profile-sec .nav-link {
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
-  border-right: 1px solid var(--main-text-color);
+  font-size: 20px;
+  border-right: 1px solid var(--primary-color);
 }
 
 .profile-sec .nav-link.active {
@@ -13,6 +15,42 @@
   border-right: 3px solid var(--primary-color);
 }
 
-.com-profile{
+.profile-sec .nav-link.active i {
+  color: var(--primary-color);
+}
+
+.com-profile {
   border-left: 3px solid var(--primary-color);
+}
+
+.financial-img .item {
+  width: 295px;
+  height: 295px;
+  overflow: hidden;
+  transform: rotate(45deg);
+}
+
+.financial-img .item:nth-child(2) {
+  margin-top: 70px;
+}
+
+.financial-img .item .img {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-45deg) scale(1.42);
+}
+
+.financial-img .item .img.first-img {
+  background: url(../img/financial_02.jpg);
+}
+
+.financial-img .item .img.sec-img {
+  background: url(../img/financial_01.jpg);
+}
+
+@media screen and (max-width: 992px) {
+  .financial-img .item {
+   max-width: 150px;
+   height: 150px;
+  }
 }

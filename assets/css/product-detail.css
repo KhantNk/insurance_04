@@ -5,9 +5,18 @@
 .health-sec .nav-link {
   background-color: #F3F3F3;
   color: var(--main-text-color);
+  font-size: 20px;
 }
 
 .health-sec .nav-link.active {
   background-color: #FFFFFF;
   color: var(--main-text-color);
+  border-left: 2px solid var(--primary-color);
+}
+
+.health-sec ul li::before{
+  font-family: 'FontAwesome';
+  content: '\f69a';
+  padding-right: 10px;
+  color: var(--primary-color);
 }

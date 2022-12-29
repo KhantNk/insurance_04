@@ -55,16 +55,41 @@
   transform: rotate(-45deg);
 }
 
-.choose-sec i{
-    font-family: var(--font-awesome);
-    font-size: 35px;
-    color: var(--secondary-color);
+.choose-sec i {
+  font-family: var(--font-awesome);
+  font-size: 35px;
+  color: var(--secondary-color);
 }
 
-.claim-sec{
-    background-image: url(../img/question.png);
-    background-size: cover;
-    height: 235px;
-    width: 100%;
-    background-position: center;
+.claim-sec {
+  background-image: url(../img/question.png);
+  background-size: cover;
+  height: 235px;
+  width: 100%;
+  background-position: center;
+  position: relative;
+}
+
+.claim-sec:before {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(255, 255, 255, 0.7);
+  content: "";
+}
+
+@media screen and (max-width: 992px) {
+  .about-txt {
+    padding: 50px;
+  }
+
+  .claim-sec {
+    height: auto;
+  }
+
+  .wwd-sec i {
+    font-size: 25px;
+  }
 }

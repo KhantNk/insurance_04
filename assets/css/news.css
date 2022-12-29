@@ -1,0 +1,8 @@
+.wwd-sec .event-info{
+  border-top: 0.5px solid #CCCCCC;
+  border-bottom: 0.5px solid #CCCCCC;
+}
+.wwd-sec .event-info i {
+  font-size: 13px;
+  padding-right: 10px;
+}

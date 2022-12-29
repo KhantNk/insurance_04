@@ -1,0 +1,24 @@
+header h1 {
+  font-family: var(--font-arial);
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 55px;
+}
+
+header .breadcrumb-item a {
+  font-family: var(--font-arial);
+  color: var(--secondary-color);
+  font-size: 25px;
+}
+
+header .breadcrumb-item.active a{
+  color: #FFFFFF;
+}
+header .breadcrumb-item+.breadcrumb-item::before {
+  font-family: 'FontAwesome';
+  content: '\f105';
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 25px;
+  padding:0 20px;
+}

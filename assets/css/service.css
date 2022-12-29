@@ -6,3 +6,7 @@
   transform: rotate(0);
   font-size: 35px;
 }
+
+.ser-pg .card{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 15%);
+}

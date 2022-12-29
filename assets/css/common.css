@@ -27,7 +27,7 @@
 }
 
 @font-face {
-font-family: 'Abril Fatface';
+  font-family: 'Abril Fatface';
   font-weight: regular;
   src: url('../font/Lato-Medium.ttf');
 }
@@ -85,10 +85,13 @@ h4 {
   color: var(--primary-color);
 }
 
-.btn-outline-primary{
+.btn-outline-primary {
   border-color: var(--primary-color);
-  padding: 10px 20px;
   color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+  color: #D89C55;
 }
 
 
@@ -113,4 +116,16 @@ h4 {
   .pc {
     display: none;
   }
+
+  .ico-span {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+  }
+
+  .icon-bg {
+    width: 63px;
+    height: 63px;
+  }
+
 }
