@@ -56,11 +56,22 @@ h4 {
   color: var(--primary-color);
 }
 
+p{
+  font-family: var(--font-lato);
+  font-size: 16px;
+  line-height: 1.8;
+}
+
 .logo {
   font-family: var(--font-abril);
   font-size: 40px;
   color: var(--secondary-color);
 }
+
+.logo:hover {
+  color: var(--bg-light-color);
+}
+
 
 .ico-span {
   width: 100px;
@@ -86,12 +97,15 @@ h4 {
 }
 
 .btn-outline-primary {
+  background-color: #FFFFFF;
   border-color: var(--primary-color);
   color: var(--primary-color);
 }
 
 .btn-outline-primary:hover {
-  color: #D89C55;
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+  border-color: var(--primary-color);
 }
 
 
