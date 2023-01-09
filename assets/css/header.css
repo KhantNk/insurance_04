@@ -5,14 +5,33 @@ header h1 {
   font-size: 55px;
 }
 
+.logo {
+  font-family: var(--font-abril);
+  font-size: 47px;
+  color: var(--secondary-color);
+}
+
+.logo:hover {
+  color: var(--bg-light-color);
+}
+
+header .navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: unset;
+
+}
+
 header .breadcrumb-item a {
   font-family: var(--font-arial);
   color: var(--secondary-color);
   font-size: 25px;
 }
 
-header .breadcrumb-item.active a {
+header .breadcrumb-item.active {
+  font-family: var(--font-arial);
   color: #FFFFFF;
+  font-size: 25px;
 }
 
 header .breadcrumb-item+.breadcrumb-item::before {
@@ -39,4 +58,30 @@ header .nav-link:hover {
 header .nav-link.active {
   background-color: #FFFFFF;
   color: var(--primary-color);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  header .nav-link {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .logo {
+    font-size: 8vw;
+  }
+
+  header .nav-link {
+    background-color: unset;
+  }
+
+  header .nav-link:hover {
+    background-color: unset;
+    color: var(--bs-navbar-active-color);
+  }
+
+  header .nav-link.active {
+    background-color: unset;
+    color: var(--bs-navbar-active-color);
+  }
 }

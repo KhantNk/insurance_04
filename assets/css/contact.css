@@ -9,3 +9,11 @@
 .contact-sec .map iframe{
   height: 100%;
 }
+
+.contact-sec ul li{
+  line-height: 1.8;
+}
+
+.review-form .col-6{
+  width: 48%;
+}
