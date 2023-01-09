@@ -120,26 +120,7 @@
     display: block;
     opacity: 1;
   }
-
-  .financial-img .item {
-    width: 295px;
-    height: 295px;
-    overflow: hidden;
-    transform: rotate(45deg);
-    border: 2px solid var(--primary-color);
-    background-color: var(--bg-light-color);
-  }
-
-  .financial-img .item:nth-child(2) {
-    margin-top: 70px;
-  }
-
-  .financial-img .item .img {
-    width: 100%;
-    height: 100%;
-    transform: rotate(-45deg) scale(1.1);
-  }
-
+  
   .accordion-button {
     font-size: 20px;
   }

@@ -72,6 +72,10 @@
   margin-bottom: 26px;
 }
 
+.wwd-sec .col-md-3:last-of-type {
+  margin-bottom: 0;
+}
+
 .wwd-sec .col-md-3:hover .ico-span {
   background-color: #FFFFFF;
 }
