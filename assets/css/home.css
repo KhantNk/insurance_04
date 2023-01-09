@@ -44,7 +44,8 @@
 
 .about-img img {
   width: 475px;
-  height: 312px;
+  height: auto;
+  margin: 0 auto;
 }
 
 .about-txt {
@@ -90,10 +91,17 @@
   margin-bottom: 26px;
 }
 
+.choose-sec .card:last-of-type {
+  margin-bottom: 0px;
+}
+
+.choose-sec .sec-col {
+  padding-top: 30px;
+}
+
 .claim-sec {
   background-image: url(../img/question.png);
   background-size: cover;
-  height: 235px;
   width: 100%;
   background-position: center;
   position: relative;
@@ -113,7 +121,8 @@
 
   .about-img img {
     width: 335px;
-    height: 238px;
+    height: auto;
+    margin: 0 auto;
   }
 
   .about-txt {
@@ -143,12 +152,40 @@
 }
 
 @media screen and (max-width: 767.9px) {
-  .claim-sec .col-md-3 {
-    padding-top: 20px;
+  .main-vs {
+    height: 375px;
   }
 
   .mis-sec .col-6 {
-    width: 48%;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .mis-sec .row.justify-content-between {
+    flex-direction: column;
+  }
+
+  .mis-sec .col-6:nth-child(1) {
+    border-radius: 20px;
+    box-shadow: unset;
+    margin-bottom: 20px;
+  }
+
+  .mis-sec .col-6:nth-child(2) {
+    border-radius: 20px;
+    box-shadow: unset;
+  }
+
+  .choose-sec .row {
+    flex-direction: column;
+  }
+
+  .choose-sec .sec-col {
+    padding-top: 25px;
+  }
+
+  .claim-sec .col-md-3 {
+    padding-top: 20px;
   }
 
   .wwd-sec i {
