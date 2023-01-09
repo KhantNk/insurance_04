@@ -95,6 +95,10 @@
     margin: 0 auto;
   }
 
+  .ser-pg ul{
+    padding: 0;
+  }
+
   .financial-img {
     flex-direction: column;
     gap: 75px;
@@ -120,7 +124,7 @@
     display: block;
     opacity: 1;
   }
-  
+
   .accordion-button {
     font-size: 20px;
   }
