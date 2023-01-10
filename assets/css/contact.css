@@ -1,19 +1,41 @@
-.contact-sec{
+.contact-sec {
   background-color: var(--main-bg-color);
 }
 
-.contact-sec .map{
+.contact-sec .map {
   height: 400px;
 }
 
-.contact-sec .map iframe{
+.contact-sec .map iframe {
   height: 100%;
 }
 
-.contact-sec ul li{
+.contact-sec ul li {
   line-height: 1.8;
 }
 
-.review-form .col-6{
+.review-form .col-6 {
   width: 48%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .contact-sec .row {
+    flex-direction: column-reverse;
+  }
+
+  .contact-sec .col-md-6 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .contact-sec .row {
+    flex-direction: column-reverse;
+  }
+
+  .contact-sec .col-md-6 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
 }
