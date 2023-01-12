@@ -38,6 +38,7 @@
   src: url(../font/fontawesome-free-6.0.0-web);
 }
 
+
 h1 {
   font-family: var(--font-arial);
   font-size: 55px;
@@ -102,7 +103,7 @@ p {
 .cmn-visual {
   background-image: url(../img/cmn_bg.jpg);
   background-size: cover;
-  background-position: top center;
+  background-position: left center;
   background-repeat: no-repeat;
   text-align: center;
   height: 400px;
