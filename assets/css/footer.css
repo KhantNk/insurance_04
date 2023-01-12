@@ -27,4 +27,8 @@ footer .copy-right span{
     footer .footer-logo {
       justify-content: left;
     }
+
+    footer .prt-img img {
+      height: 40px;
+    }
 }
