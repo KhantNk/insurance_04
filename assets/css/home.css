@@ -29,6 +29,10 @@
   background-color: var(--main-bg-color);
 }
 
+.about-sec .row{
+  align-items: center;
+}
+
 .about-sec h2::after {
   content: '';
   background: var(--primary-color);
