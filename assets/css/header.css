@@ -53,9 +53,11 @@ header .nav-link {
 
 header .nav-link:hover {
   color: var(--primary-color);
+  background-color: #FFFFFF;
 }
 
 header .nav-link.active {
+  background-color: #FFFFFF;
   color: var(--primary-color);
 }
 
@@ -65,13 +67,22 @@ header .navbar-expand-lg .navbar-nav .nav-link {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
+
   header .nav-link {
+    background-color: unset;
     font-size: 18px;
+    font-family: var(--font-delius);
   }
 
-header .nav-link {
-  background-color: unset;
-}
+  header .nav-link:hover {
+    background-color: unset;
+    color: var(--bs-navbar-active-color);
+  }
+
+  header .nav-link.active {
+    background-color: unset;
+    color: var(--bs-navbar-active-color);
+  }
 }
 
 @media screen and (max-width: 767.9px) {

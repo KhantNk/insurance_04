@@ -140,7 +140,8 @@
   }
 
   .accordion-button {
-    font-size: 20px;
+    font-size: 4vw;
+    font-weight: bold;
   }
 
   .accordion-button i {
@@ -151,6 +152,8 @@
     color: var(--primary-color);
     background-color: unset;
     box-shadow: unset;
+    font-size: 4vw;
+    font-weight: bold;
   }
 
 }

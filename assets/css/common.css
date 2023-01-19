@@ -29,7 +29,7 @@
 @font-face {
   font-family: 'Abril Fatface';
   font-weight: regular;
-  src: url('../font/Lato-Medium.ttf');
+  src: url('../font/AbrilFatface-Regular.ttf');
 }
 
 @font-face {
@@ -38,6 +38,11 @@
   src: url(../font/fontawesome-free-6.0.0-web);
 }
 
+@font-face {
+  font-family: "Delius Swash Caps";
+  font-weight: normal;
+  src: url('../font/DeliusSwashCaps-Regular.ttf');
+}
 
 h1 {
   font-family: var(--font-arial);
@@ -61,6 +66,7 @@ p {
   font-family: var(--font-lato);
   font-size: 16px;
   line-height: 1.8;
+  display: -webkit-box;
 }
 
 .ico-span {
