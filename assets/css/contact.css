@@ -18,7 +18,8 @@
   width: 48%;
 }
 
-.review-form{
+.review-form input,
+ textarea{
   outline-color: #FFFFFF;
 }
 
