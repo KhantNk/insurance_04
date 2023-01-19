@@ -3,22 +3,22 @@
 }
 
 .health-sec .nav-link {
-  background-color: #F3F3F3;
   color: var(--main-text-color);
   font-size: 20px;
+  background-color: #F3F3F3;
 }
 
 .health-sec .nav-link.active {
-  background-color: #FFFFFF;
-  color: var(--main-text-color);
   border-left: 2px solid var(--primary-color);
+  color: var(--main-text-color);
+  background-color: #FFFFFF;
 }
 
 .health-sec ul li::before{
-  font-family: 'FontAwesome';
-  content: '\f69a';
   padding-right: 10px;
   color: var(--primary-color);
+  font-family: 'FontAwesome';
+  content: '\f69a';
 }
 
 @media screen and (max-width: 767.9px){

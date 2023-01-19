@@ -45,21 +45,21 @@
 }
 
 h1 {
-  font-family: var(--font-arial);
-  font-size: 55px;
   color: var(--primary-color);
+  font-size: 55px;
+  font-family: var(--font-arial);
 }
 
 h2 {
-  font-family: var(--font-arial);
-  font-size: 35px;
   color: var(--primary-color);
+  font-size: 35px;
+  font-family: var(--font-arial);
 }
 
 h4 {
-  font-family: var(--font-delius);
-  font-size: 40px;
   color: var(--primary-color);
+  font-size: 40px;
+  font-family: var(--font-delius);
 }
 
 h5{
@@ -67,10 +67,10 @@ h5{
 }
 
 p {
-  font-family: var(--font-lato);
+  display: -webkit-box;
   font-size: 16px;
   line-height: 1.8;
-  display: -webkit-box;
+  font-family: var(--font-lato);
 }
 
 .ico-span {
@@ -91,32 +91,32 @@ p {
 }
 
 .card-title {
-  font-family: var(--font-delius);
-  font-size: 20px;
   color: var(--primary-color);
+  font-size: 20px;
+  font-family: var(--font-delius);
 }
 
 .btn-outline-primary {
-  background-color: #FFFFFF;
   border-color: var(--primary-color);
   color: var(--primary-color);
+  background-color: #FFFFFF;
   --bs-btn-active-bg: var(--primary-color);
   --bs-btn-active-border-color: var(--primary-color);
 }
 
 .btn-outline-primary:hover {
-  background-color: var(--primary-color);
-  color: #FFFFFF;
   border-color: var(--primary-color);
+  color: #FFFFFF;
+  background-color: var(--primary-color);
 }
 
 .cmn-visual {
-  background-image: url(../img/cmn_bg.jpg);
-  background-size: cover;
-  background-position: left center;
-  background-repeat: no-repeat;
-  text-align: center;
   height: 400px;
+  text-align: center;
+  background-image: url(../img/cmn_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
 }
 
 .mb {

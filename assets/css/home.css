@@ -1,9 +1,9 @@
 .main-vs {
-  background-image: url(../img/main_bg.jpg);
-  background-size: cover;
-  height: 700px;
   width: 100%;
+  height: 700px;
+  background-image: url(../img/main_bg.jpg);
   background-position: bottom;
+  background-size: cover;
 }
 
 .nav-link {
@@ -16,21 +16,21 @@
 }
 
 .mis-sec .col-6:nth-child(1) {
-  border-top-left-radius: 65px;
-  box-shadow: -6px 6px 0 var(--primary-color);
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
   height: 250px;
+  border-top-left-radius: 65px;
+  overflow: hidden;
+  box-shadow: -6px 6px 0 var(--primary-color);
+  /* -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical; */
 }
 
 .mis-sec .col-6:nth-child(2) {
-  border-top-right-radius: 65px;
-  box-shadow: 6px 6px 0 var(--primary-color);
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
   height: 250px;
+  border-top-right-radius: 65px;
+  overflow: hidden;
+  box-shadow: 6px 6px 0 var(--primary-color);
+  /* -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical; */
 }
 
 .about-sec {
@@ -42,12 +42,12 @@
 }
 
 .about-sec h2::after {
+  display: inline-block;
+  width: 100px;
+  height: 2px;
+  margin-left: 5px;
   content: '';
   background: var(--primary-color);
-  height: 2px;
-  width: 100px;
-  display: inline-block;
-  margin-left: 5px;
 }
 
 .about-img {
@@ -70,9 +70,9 @@
 }
 
 .wwd-sec i {
-  font-family: var(--font-awesome);
-  font-size: 40px;
   color: var(--primary-color);
+  font-size: 40px;
+  font-family: var(--font-awesome);
   transform: rotate(-45deg);
 }
 
@@ -111,9 +111,9 @@
 }
 
 .choose-sec .card {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 15%);
-  margin-bottom: 26px;
   height: 240px;
+  margin-bottom: 26px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 15%);
   /* -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden; */
@@ -128,11 +128,11 @@
 }
 
 .claim-sec {
-  background-image: url(../img/question.png);
-  background-size: cover;
-  width: 100%;
-  background-position: center;
   position: relative;
+  width: 100%;
+  background-image: url(../img/question.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .claim-sec:before {
@@ -141,8 +141,8 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-color: rgba(255, 255, 255, 0.7);
   content: "";
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
@@ -154,8 +154,8 @@
   }
 
   .about-txt {
-    background-color: unset;
     padding: 15px 15px;
+    background-color: unset;
   }
 
   .mis-sec .col-6 {
@@ -207,9 +207,9 @@
   }
 
   .mis-sec .col-6:nth-child(1) {
+    margin-bottom: 20px;
     border-radius: 20px;
     box-shadow: unset;
-    margin-bottom: 20px;
   }
 
   .mis-sec .col-6:nth-child(2) {

@@ -1,15 +1,15 @@
 header h1 {
-  font-family: var(--font-arial);
   color: #FFFFFF;
   font-weight: bold;
   font-size: 55px;
+  font-family: var(--font-arial);
 }
 
 .logo {
-  font-family: var(--font-abril);
-  font-size: 47px;
-  color: var(--secondary-color);
   margin-right: 0;
+  color: var(--secondary-color);
+  font-size: 47px;
+  font-family: var(--font-abril);
 }
 
 .logo:hover {
@@ -17,37 +17,36 @@ header h1 {
 }
 
 header .navbar-toggler:focus {
-  text-decoration: none;
   outline: 0;
+  text-decoration: none;
   box-shadow: unset;
-
 }
 
 header .breadcrumb-item a {
-  font-family: var(--font-arial);
   color: var(--secondary-color);
   font-size: 25px;
+  font-family: var(--font-arial);
 }
 
 header .breadcrumb-item.active {
-  font-family: var(--font-arial);
   color: #FFFFFF;
   font-size: 25px;
+  font-family: var(--font-arial);
 }
 
 header .breadcrumb-item+.breadcrumb-item::before {
-  font-family: 'FontAwesome';
-  content: '\f105';
+  padding: 0 20px;
   color: var(--secondary-color);
   font-weight: 700;
   font-size: 25px;
-  padding: 0 20px;
+  font-family: 'FontAwesome';
+  content: '\f105';
 }
 
 header .nav-link {
-  font-family: var(--font-delius);
-  font-size: 20px;
   color: var(--primary-color);
+  font-size: 20px;
+  font-family: var(--font-delius);
   background-color: rgba(255, 255, 255, 50%);
 }
 
@@ -57,8 +56,8 @@ header .nav-link:hover {
 }
 
 header .nav-link.active {
-  background-color: #FFFFFF;
   color: var(--primary-color);
+  background-color: #FFFFFF;
 }
 
 header .navbar-expand-lg .navbar-nav .nav-link {
@@ -69,19 +68,19 @@ header .navbar-expand-lg .navbar-nav .nav-link {
 @media screen and (min-width: 768px) and (max-width: 1280px) {
 
   header .nav-link {
-    background-color: unset;
     font-size: 18px;
     font-family: var(--font-delius);
+    background-color: unset;
   }
 
   header .nav-link:hover {
-    background-color: unset;
     color: var(--bs-navbar-active-color);
+    background-color: unset;
   }
 
   header .nav-link.active {
-    background-color: unset;
     color: var(--bs-navbar-active-color);
+    background-color: unset;
   }
 }
 
@@ -95,12 +94,12 @@ header .navbar-expand-lg .navbar-nav .nav-link {
   }
 
   header .nav-link:hover {
-    background-color: unset;
     color: var(--bs-navbar-active-color);
+    background-color: unset;
   }
 
   header .nav-link.active {
-    background-color: unset;
     color: var(--bs-navbar-active-color);
+    background-color: unset;
   }
 }
